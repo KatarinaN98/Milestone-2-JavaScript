@@ -1,0 +1,64 @@
+/* General Styles for Clothing Page */
+body {
+    background-color: #938eaa;
+}
+
+/* Hero Section */
+.site--hero {
+    background-image: url('images/clothing-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.site--hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+/* Product Section */
+.products-section {
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.products--list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.product.card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 250px;
+}
+
+.product.card:hover {
+    transform: scale(1.05);
+}
+
+.product--name {
+    font-size: 22px;
+    color: #5c39b5;
+}
+
+.product--details {
+    background-color: #5c39b5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product--details:hover {
+    background-color: #764ecf;
+}
